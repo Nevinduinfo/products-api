@@ -12,7 +12,7 @@ class Customer {
 }
 class Address {
     -String street
-    -String city
+    -String city 
     -String postcode
     +getStreet() String
     +getCity() String
