@@ -28,7 +28,6 @@ public class Person {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -36,5 +35,6 @@ public class Person {
     public String getEmail(String email){
         return this.email = email;
     }
+    public void setEmail(String email) { this.email = email; }
 
 }
