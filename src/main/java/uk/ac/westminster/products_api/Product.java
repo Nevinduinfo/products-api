@@ -18,10 +18,24 @@ public class Product {
     public Long getId(){
         return id;
     }
+    //Setter
+    public void setId(Long id){
+        this.id = id;
+    }
+    //Getters
     public String getName(){
         return name;
     }
+    //Setter
+    public void setName(String name){
+        this.name = name;
+    }
+    //Getter
     public double getPrice(){
         return price;
+    }
+    //Setter
+    public void setPrice(double price){
+        this.price = price;
     }
 }
